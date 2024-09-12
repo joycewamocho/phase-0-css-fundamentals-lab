@@ -3,3 +3,36 @@ body {
   height: 100%;
   margin: 0;
 }
+
+#centre {
+  text-align: center;
+}
+
+#featured-property figure {
+  display: block;
+  margin:auto;
+  width: 900px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#featured-property figure ~ p {
+  Display: block;
+  margin: auto;
+  width:800px;
+  text-align: center;
+  font-size: medium;
+}
+
+#details {
+  overflow: hidden;
+  background: pink;
+  padding: 10px;
+}
+
+#details > div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+}
